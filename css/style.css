@@ -5,7 +5,16 @@ body {
 p {
     font-size: 16px;
 }
+main{
+    margin-top: 88px;
 
+}
+@media (max-width: 576px) {
+    main{
+        margin-top: 50px;
+    
+    }
+  }
 .p-sm {
     font-size: 14px;
 }
@@ -32,7 +41,6 @@ p {
 }
 
 .project {
-    height: 300px;
 }
 
 .project img {
