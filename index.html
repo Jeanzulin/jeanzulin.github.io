@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top ">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top "  id="navbar-example2" >
         <div class="container-fluid">
             <a class="navbar-brand ms-3" href="index.html">Jean Lin</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,10 +28,10 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item mx-3 me-1">
-                        <a class="nav-link active">Project</a>
+                        <a class="nav-link"  href="#sc_project" >Project</a>
                     </li>
                     <li class="nav-item mx-3 me-1">
-                        <a class="nav-link" href="">Resume</a>
+                        <a class="nav-link" href="MyResume.pdf" download="Resume-Jean Lin">Resume <small><i class="fa-solid fa-download"></i></small></a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link" href="mailto: jeanzu19@gmail.com">Contact</a>
@@ -41,8 +41,8 @@
         </div>
     </nav>
 
-    <main style="margin-top:100px">
-        <div class="px-4 py-5 mb-2 my-lg-5 text-center ">
+    <main>
+        <div class="px-4 text-center" id="sc_intro">
             <h1 class="fs-2 fw-bold mb-4 lh-base">Hi! I'm Jean 👋<br>An experienced Web Designer based in Seattle.</h1>
             <div class="col-lg-8 mx-auto">
                 <p class="fs-5 mb-4 lh-base ">As a passionate Web Designer with 5+ years of experience, I bring a unique
@@ -61,110 +61,112 @@
                 </div>
             </div>
         </div>
-        <div class="container col-xxl-8 px-4" id="sc_project">
-            <div class="row align-items-top g-5 pb-4 pt-4">
-                <div class=" col-lg-6 mt-3">
-                    <div class="d-block mx-lg-auto img-fluid shadow-lg overflow-hidden rounded shadow-lg project"
-                        loading="lazy">
-                        <img class="object-fit-cover" src="img/pj1.png" alt="Bootstrap Themes">
+        <div  id="sc_project"> 
+            <div class="container col-xxl-8 px-4">
+                <div class="row align-items-top g-5 pb-4 pt-4">
+                    <div class=" col-lg-6 mt-3">
+                        <div class="d-block mx-lg-auto img-fluid overflow-hidden rounded project"
+                            loading="lazy">
+                            <img class="object-fit-cover" src="img/pj1.png" alt="Bootstrap Themes">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 mt-3">
-                    <div class="d-flex mb-2">
-                        <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">UIUX</span></h5>
-                        <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">RWD</span></h5>
-                        <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">Web
-                                Development</span></h5>
-                    </div>
-                    <h2 class="fs-4 fw-bold lh-1 mb-3 ">Official Recruitment Website Redesign Project @ E.SUN BANK</h2>
-                    <p>The Project aims to help the company attract and retain top talent by redesigning a visually
-                        appealing and user-friendly Recruitment Website, ultimately contributing to the company's
-                        success and growth.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="project-1.html"
-                            class="icon-link d-inline-flex align-items-center  text-underline-hover">
-                            Read more
-                            <i class="fa fa-chevron-right" style="font-size: 12px;margin-left:4px;"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container col-xxl-8 px-4">
-            <div class="row align-items-top g-5 pb-4 pt-5">
-                <div class="col-lg-6 mt-3">
-                    <div class="d-block mx-lg-auto img-fluid shadow-lg overflow-hidden rounded shadow-lg project"
-                        loading="lazy">
-                        <img class="object-fit-cover" src="img/pj2.png" alt="Bootstrap Themes">
-                    </div>
-                </div>
-                <div class="col-lg-6 mt-3">
-                    <div class="d-flex mb-2">
-                        <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">UIUX</span></h5>
-                        <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">RWD</span></h5>
-                        <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">Web
-                                Development</span></h5>
-                    </div>
-                    <h2 class="fs-4 fw-bold lh-1 mb-3">Account Opening Process Redesign Project @ E.SUN BANK</h2>
-                    <p class="">The project aims to make it easier and more convenient for customers to open new
-                        accounts online by integrating the individual processes for stock account, savings account, and
-                        credit card application into one streamlined process.
-                    </p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="project-2.html"
-                            class="icon-link d-inline-flex align-items-center text-underline-hover">
-                            Read more
-                            <i class="fa fa-chevron-right" style="font-size: 12px;margin-left:4px;"></i>
-                        </a>
+                    <div class="col-lg-6 mt-3">
+                        <div class="d-flex mb-2">
+                            <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">UIUX</span></h5>
+                            <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">RWD</span></h5>
+                            <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">Web
+                                    Development</span></h5>
+                        </div>
+                        <h2 class="fs-4 fw-bold lh-1 mb-3 ">Official Recruitment Website Redesign Project @ E.SUN BANK</h2>
+                        <p>The Project aims to help the company attract and retain top talent by redesigning a visually
+                            appealing and user-friendly Recruitment Website, ultimately contributing to the company's
+                            success and growth.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a href="project-1.html"
+                                class="icon-link d-inline-flex align-items-center  text-underline-hover">
+                                Read more
+                                <i class="fa fa-chevron-right" style="font-size: 12px;margin-left:4px;"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container col-xxl-8 px-4">
-            <div class="row align-items-top g-5 py-5">
-                <div class="col-lg-6 mt-3">
-                    <div class="d-block mx-lg-auto img-fluid shadow-lg overflow-hidden rounded shadow-lg project"
-                        loading="lazy">
-                        <img class="object-fit-cover" src="img/pj3.png" alt="Bootstrap Themes">
+            <div class="container col-xxl-8 px-4">
+                <div class="row align-items-top g-5 pb-4 pt-5">
+                    <div class="col-lg-6 mt-3">
+                        <div class="d-block mx-lg-auto img-fluid overflow-hidden rounded  project"
+                            loading="lazy">
+                            <img class="object-fit-cover" src="img/pj2.png" alt="Bootstrap Themes">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 mt-3">
-                    <div class="d-flex mb-2">
-                        <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">UX Design</span></h5>
-                        <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">Responsive Web
-                                Design</span></h5>
-                        <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">Web
-                                Development</span></h5>
-                    </div>
-                    <h2 class="fs-4 fw-bold lh-1 mb-3">Design System Establishing Project @ E.SUN BANK</h2>
-                    <p class="">The project was a crucial step in creating a cohesive and unified design language for
-                        our company, enabling us to deliver more consistent and high-quality user experiences across all
-                        of our products and services. Ultimately, this will lead to increased customer satisfaction,
-                        loyalty, and business success for the bank.
-                    </p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="project-3.html" class="icon-link d-inline-flex align-items-center text-underline-hover">
-                            Read more
-                            <i class="fa fa-chevron-right" style="font-size: 12px;margin-left:4px;"></i>
-                        </a>
+                    <div class="col-lg-6 mt-3">
+                        <div class="d-flex mb-2">
+                            <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">UIUX</span></h5>
+                            <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">RWD</span></h5>
+                            <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">Web
+                                    Development</span></h5>
+                        </div>
+                        <h2 class="fs-4 fw-bold lh-1 mb-3">Account Opening Process Redesign Project @ E.SUN BANK</h2>
+                        <p class="">The project aims to make it easier and more convenient for customers to open new
+                            accounts online by integrating the individual processes for stock account, savings account, and
+                            credit card application into one streamlined process.
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a href="project-2.html"
+                                class="icon-link d-inline-flex align-items-center text-underline-hover">
+                                Read more
+                                <i class="fa fa-chevron-right" style="font-size: 12px;margin-left:4px;"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="container col-xxl-8 px-4">
+                <div class="row align-items-top g-5 py-5">
+                    <div class="col-lg-6 mt-3">
+                        <div class="d-block mx-lg-auto img-fluid  overflow-hidden rounded  project"
+                            loading="lazy">
+                            <img class="object-fit-cover" src="img/pj3.png" alt="Bootstrap Themes">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-3">
+                        <div class="d-flex mb-2">
+                            <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">UX Design</span></h5>
+                            <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">Responsive Web
+                                    Design</span></h5>
+                            <h5 style="margin-right:.5rem;"><span class="badge text-bg-light fw-light">Web
+                                    Development</span></h5>
+                        </div>
+                        <h2 class="fs-4 fw-bold lh-1 mb-3">Design System Establishing Project @ E.SUN BANK</h2>
+                        <p class="">The project was a crucial step in creating a cohesive and unified design language for
+                            our company, enabling us to deliver more consistent and high-quality user experiences across all
+                            of our products and services. Ultimately, this will lead to increased customer satisfaction,
+                            loyalty, and business success for the bank.
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a href="project-3.html" class="icon-link d-inline-flex align-items-center text-underline-hover">
+                                Read more
+                                <i class="fa fa-chevron-right" style="font-size: 12px;margin-left:4px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center fw-bold fs-4 mt-3 mb-5">👉 More Web Design & Development projects on <a
+                href="https://www.behance.net/jeanlin2022" target="_blank">Behance</a></p>
         </div>
-        <p class="text-center fw-bold fs-4 mt-3 mb-5">👉 More Web Design & Development projects on <a
-            href="https://www.behance.net/jeanlin2022" target="_blank">Behance</a></p>
     </main>
 
     <footer class="container pt-5 pb-1">
         <div class="row justify-content-between align-items-center">
-            <div class="col-12 col-md-6 ">
+            <div class="col-8 col-md-10">
                 <small class="d-block mb-3 text-muted">&copy; 2023 DESIGN & DEVELOPMENT by Jean Lin
                 </small>
             </div>
-            <div class="col-6 col-md-2">
-                <div class="d-flex">
+            <div class="col-4 col-md-2">
+                <div class="">
                     <a class="mx-2 fs-3 text-secondary"><i class="fa-brands fa-linkedin"></i></a>
-                    <a class="mx-2 fs-3 text-secondary"><i class="fa-solid fa-envelope"></i></a>
+                    <a class="mx-3 fs-3 text-secondary"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
         </div>

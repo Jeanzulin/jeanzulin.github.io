@@ -9,31 +9,54 @@ p {
 .p-sm {
     font-size: 14px;
 }
-.btn-icon{
+
+.btn-icon {
     position: relative;
     height: 52px;
     width: 52px;
 }
-.btn-icon svg{
+
+.btn-icon svg {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
+
+#sc_intro {
+    padding-top: 130px;
+}
+
+#sc_project {
+    padding-top: 100px;
+}
+
 .project {
     height: 300px;
 }
 
 .project img {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
+.project-detail--img {
+    max-width: 100%;
+    max-height: 800px;
+}
+.project-detail--img img{
+    max-width: 100%;
+}
 .text-underline-hover {
     text-decoration: none;
 }
 
 .text-underline-hover:hover {
     text-decoration: underline;
+}
+
+.text-bg-light {
+    background: rgb(243, 243, 243) !important;
+    color: rgb(50, 50, 50) !important;
+    ;
 }
